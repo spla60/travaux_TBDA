@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://bienvu.net/script.php" method="post">
+        <fieldset>
+            <legend>Coordonnées</legend><br> 
+        <label for="nom">Votre nom*:</label><input type="text" name="nom" id="nom" required ><br><br> 
+        <label for="prenom">Votre prenom*:</label><input type="text" name="prenom" id="prenom" required ><br>
+        <br>
+        <br>
+        <label for="sexe">Sexe*</label><input type="radio" name="sexe" value="homme" required>Homme 
+                                       <input type="radio" name="sexe" value="femme" required>Femme<br><br>
+    
+        
+        <label for="date">Date de naissance* :</label><input type="date" name="ddn" id="date" required><br><br>
+        <label for="code postal">Code postal* :</label><input type="number" name="code postal" id="code postal" required><br><br> 
+        <label for="adresse">Adresse :</label><input type="text" name="prenom" id="prenom"><br><br>
+        <label for="ville">Ville:</label><input type="text" name="ville" id="ville"><br><br> 
+        <label for="Adresse email">Email*:</label><input type="email" name="Adresse email" id="Adresse email"required><br><br>                              
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Votre demande</legend><br>
+            
+
+            <label for="sujet"required>Sujet*:</label>
+            <select id="sujet"> 
+            <option value="" selected>Veuillez sélectionner un sujet</option>
+            <option value="Questions sur un produit">Questions sur un produit</option>
+            <option value="Réclamation">Réclamation</option>
+            <option value="Autres">Autres</option>
+            
+            </select><br>
+            <br>
+
+
+            <label for="Votre question"required>Votre question*:</label><textarea name="commentaire" rows="2" cols="50"></textarea>
+
+        </fieldset>
+        <br>
+        <input type="checkbox"  value="" required>* J'accepte le traitement informatique de ce formulaire
+
+
+        <br><br>
+        <input type="submit"> <input type="reset" value="Annuler"> 
+        
+       
+    
+    
+    
+    </form>   
+        
+</body>
+</html>
