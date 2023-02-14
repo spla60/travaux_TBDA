@@ -23,11 +23,20 @@ nav {
 nav ul{
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
 }
 
 
 footer ul{
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
 
+}
+
+@media screen (max-width: 768px) {
+    nav ul{
+        flex-direction: column;
+    }
+    
 }
