@@ -46,6 +46,11 @@ footer ul {
 
 }
 
+#image1{
+
+    width:100%;
+}
+
 @media screen and (max-width: 768px) {
     nav ul {
         display: flex;
