@@ -12,3 +12,22 @@ footer {
     background-color:rgb(213, 228, 230);
    
 }
+
+nav {
+    color: black;
+    
+    background-color:rgb(213, 228, 230);
+   
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+
+}
