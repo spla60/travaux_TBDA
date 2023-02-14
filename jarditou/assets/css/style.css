@@ -1,42 +1,71 @@
+body {
+    font-family: 'Zeyada', cursive;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+
+
 p {
-   color: red;
+    color: red;
 }
 
 header {
     color: blue;
+
+    max-width: 100%;
 }
 
 footer {
     color: black;
-    
-    background-color:rgb(213, 228, 230);
-   
+
+    background-color: rgb(213, 228, 230);
+
+    width: 100%;
+
 }
 
 nav {
     color: black;
-    
-    background-color:rgb(213, 228, 230);
-   
+
+    background-color: rgb(213, 228, 230);
+
 }
 
-nav ul{
+nav ul {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    list-style: none;
 }
 
 
-footer ul{
+footer ul {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    list-style: none;
 
 }
 
-@media screen (max-width: 768px) {
-    nav ul{
+@media screen and (max-width: 768px) {
+    nav ul {
         flex-direction: column;
+        text-align: center;
+        list-style: none;
     }
-    
+
+    footer ul {  
+        flex-direction: column;
+        text-align: center;
+        list-style: none;
+        
+
+        }
+
+    form {
+        width: 500px;
+    }
+
+
 }
