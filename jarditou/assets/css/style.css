@@ -2,9 +2,8 @@ body {
     font-family: 'Zeyada', cursive;
     font-size: 1.6em;
     font-weight: bold;
+    position: relative;
 }
-
-
 
 p {
     color: red;
@@ -12,17 +11,15 @@ p {
 
 header {
     color: blue;
-
     max-width: 100%;
 }
 
 footer {
     color: black;
-
     background-color: rgb(213, 228, 230);
-
     width: 100%;
-
+    position: sticky;
+    bottom: 0;
 }
 
 nav {
@@ -46,26 +43,26 @@ footer ul {
     flex-direction: row;
     list-style: none;
 
+
 }
 
 @media screen and (max-width: 768px) {
     nav ul {
+        display: flex;
         flex-direction: column;
         text-align: center;
         list-style: none;
     }
 
-    footer ul {  
+    footer ul {
+        display: flex;
         flex-direction: column;
         text-align: center;
         list-style: none;
-        
-
-        }
-
-    form {
-        width: 500px;
     }
 
+}
 
+form {
+    width: 500px;
 }
