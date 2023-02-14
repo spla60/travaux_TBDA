@@ -1,7 +1,14 @@
 p {
-   color: red
+   color: red;
 }
 
 header {
-    color: blue
+    color: blue;
+}
+
+footer {
+    color: black;
+    
+    background-color:rgb(213, 228, 230);
+   
 }
