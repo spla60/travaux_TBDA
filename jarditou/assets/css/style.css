@@ -77,6 +77,16 @@ body {
     background-color: rgb(212, 218, 218);
 }
 
+.brouette{
+    position : relative;
+    left: 50%
+}
+
+.titre{
+    position : relative;
+    left: 50%;
+}
+
 @media screen and (max-width: 768px) {
     nav ul {
         display: flex;
