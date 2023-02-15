@@ -9,23 +9,24 @@
     <link href="css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <header>
-        <img width="200" height="100" src="img/jarditou_logo.jpg" alt="jarditou logo" title="jarditou logo" class="brouette">
+        <img width="200" height="100" src="img/jarditou_logo.jpg" alt="jarditou logo" title="jarditou logo"
+            class="brouette">
 
         <p class="titre">La qualité depuis 70 ans</p>
 
         <nav>
-        <ul class="index_du_haut">
-            <li><a href="index.html"><u>accueil</u></a></li>
-            <li><a href="tableau.html"><u>tableau</u></a></li>
-            <li><a href="contact.html"><u>contact</u></a></li>
+            <ul class="index_du_haut">
+                <li><a href="index.html"><u>accueil</u></a></li>
+                <li><a href="tableau.html"><u>tableau</u></a></li>
+                <li><a href="contact.html"><u>contact</u></a></li>
 
-        </ul>
+            </ul>
         </nav>
 
 
@@ -34,66 +35,66 @@
 
     <section>
 
-    <img src="img/promotion.jpg" alt="promotion" title="promotion" id="image1"><br><br>
+        <img src="img/promotion.jpg" alt="promotion" title="promotion" id="image1"><br><br>
 
-    <strong>Contact</strong>
+        <h3>Contact</h3>
 
-    <hr>
+        <hr>
 
 
-    <form action="http://bienvu.net/script.php" method="post">
-        <fieldset>
-            <legend>Coordonnées</legend><br>
-            <label for="nom">Votre nom*:</label><input type="text" name="nom" id="nom" required><br><br>
-            <label for="prenom">Votre prenom*:</label><input type="text" name="prenom" id="prenom" required><br>
+        <form action="http://bienvu.net/script.php" method="post">
+            <fieldset>
+                <legend>Coordonnées</legend><br>
+                <label for="nom">Votre nom*:</label><input type="text" name="nom" id="nom" required><br><br>
+                <label for="prenom">Votre prenom*:</label><input type="text" name="prenom" id="prenom" required><br>
+                <br>
+                <br>
+                <label>Sexe*</label><input type="radio" name="sexe" value="homme" required>Homme
+                <input type="radio" name="sexe" value="femme" required>Femme<br><br>
+
+
+                <label for="date">Date de naissance* :</label><input type="date" name="date" id="date" required><br><br>
+                <label for="codepostal">Code postal* :</label><input type="number" name="codepostal" id="codepostal"
+                    required><br><br>
+                <label for="adresse">Adresse :</label><input type="text" name="adresse" id="adresse"><br><br>
+                <label for="ville">Ville:</label><input type="text" name="ville" id="ville"><br><br>
+                <label for="adresseemail">Email*:</label><input type="email" name="adresseemail" id="adresseemail"
+                    required><br><br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Votre demande</legend><br>
+
+
+                <label for="sujet">Sujet*:</label>
+                <select id="sujet">
+                    <option value="" selected>Veuillez sélectionner un sujet</option>
+                    <option value="Questions sur un produit">Questions sur un produit</option>
+                    <option value="Réclamation">Réclamation</option>
+                    <option value="Autres">Autres</option>
+
+                </select><br>
+                <br>
+
+
+                <label for="commentaire">Votre question*:</label><textarea name="commentaire" id="commentaire" rows="2"
+                    cols="50"></textarea>
+
+            </fieldset>
             <br>
-            <br>
-            <label>Sexe*</label><input type="radio" name="sexe" value="homme" required>Homme
-            <input type="radio" name="sexe" value="femme" required>Femme<br><br>
+            <input type="checkbox" value="" required>* J'accepte le traitement informatique de ce formulaire
 
 
-            <label for="date">Date de naissance* :</label><input type="date" name="date" id="date" required><br><br>
-            <label for="codepostal">Code postal* :</label><input type="number" name="codepostal" id="codepostal"
-                required><br><br>
-            <label for="adresse">Adresse :</label><input type="text" name="adresse" id="adresse"><br><br>
-            <label for="ville">Ville:</label><input type="text" name="ville" id="ville"><br><br>
-            <label for="adresseemail">Email*:</label><input type="email" name="adresseemail" id="adresseemail"
-                required><br><br>
-
-        </fieldset>
-
-        <fieldset>
-            <legend>Votre demande</legend><br>
+            <br><br>
+            <input type="submit"> <input type="reset" value="Annuler">
 
 
-            <label for="sujet">Sujet*:</label>
-            <select id="sujet">
-                <option value="" selected>Veuillez sélectionner un sujet</option>
-                <option value="Questions sur un produit">Questions sur un produit</option>
-                <option value="Réclamation">Réclamation</option>
-                <option value="Autres">Autres</option>
 
-            </select><br>
-            <br>
-
-
-            <label for="commentaire">Votre question*:</label><textarea name="commentaire" id="commentaire" rows="2%"
-                cols="50%"></textarea>
-
-        </fieldset>
-        <br>
-        <input type="checkbox" value="" required>* J'accepte le traitement informatique de ce formulaire
-
-
-        <br><br>
-        <input type="submit"> <input type="reset" value="Annuler">
-
-        
-
-    </form>
+        </form>
     </section>
     <aside>
-            <img  src="img/jardinage1.jpg" alt="jardinage1" title="jardinage1">
+        <img src="img/jardinage1.jpg" alt="jardinage1" title="jardinage1">
     </aside>
 
     <footer>
@@ -106,7 +107,7 @@
         </ul>
 
 
-        </footer>
+    </footer>
 </body>
 
 </html>
