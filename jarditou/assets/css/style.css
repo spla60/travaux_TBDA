@@ -46,9 +46,35 @@ footer ul {
 
 }
 
-#image1{
+#image1 {
 
-    width:100%;
+    width: 100%;
+}
+
+form {
+    width: 30%;
+    position: relative;
+    top: 5%;
+    left: 25%;
+
+}
+
+table {
+    position: relative;
+    top: 5%;
+    left: 25%;
+}
+
+aside {
+    position: absolute;
+    right: 0px;
+    bottom: 200px;
+    height: 30%;
+    width: 5%;
+}
+
+body {
+    background-color: rgb(212, 218, 218);
 }
 
 @media screen and (max-width: 768px) {
@@ -66,8 +92,8 @@ footer ul {
         list-style: none;
     }
 
-}
+    aside {
+        display: none;
+    }
 
-form {
-    width: 500px;
 }
