@@ -96,4 +96,8 @@ body {
         display: none;
     }
 
+    body{
+        font-size: 0.8em;
+    }
+
 }
